@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.FamilyDeviceManager" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#2563EB</item>
+        <item name="colorPrimaryVariant">#1D4ED8</item>
+        <item name="colorSecondary">#10B981</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">#1D4ED8</item>
+    </style>
+</resources>

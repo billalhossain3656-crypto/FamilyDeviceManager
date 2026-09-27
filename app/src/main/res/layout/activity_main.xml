@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F5F7FB">
+
+    <TextView
+        android:id="@+id/deviceNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Family Device Manager"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/deviceNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Device name"
+        android:padding="12dp"
+        android:background="#FFFFFF" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Device"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:id="@+id/ringButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ring Device"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/locationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Location"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/statusButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh Status"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/toggleNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disable SMS Notifications"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ready"
+        android:textSize="16sp"
+        android:paddingTop="20dp"
+        android:textColor="#1F2937" />
+
+</LinearLayout>
